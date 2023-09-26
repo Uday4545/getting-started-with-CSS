@@ -1,0 +1,23 @@
+.Container{
+    border: 1px solid rgb(18, 14, 14);  display: inline-block; margin-left: 15%; margin-right: 15%; background-color: rgba(135, 189, 216, 50%);
+     text-align: center; height: 150px; padding-right: 20px; padding-left: 20px; 
+}
+.Container__title{
+    font-family: 'Great Vibes', cursive;
+}
+.Container__title--Font-Size{
+    font-size: 20px;
+}
+.Wrap{
+    border: 1px solid rgb(18, 14, 14); display: inline-block; margin-left: 15%; margin-right: 15%;
+    text-align: center; height: 150px; padding-right: 20px; padding-left: 20px; background-color:  rgba(218, 235, 232, 100%);
+}
+.Wrap__note{
+    font-family: 'Major Mono Display', monospace;
+}
+.Wrap__note--description{
+    font-size: 20px;
+}
+.Container{
+    margin-bottom: 25px;
+}

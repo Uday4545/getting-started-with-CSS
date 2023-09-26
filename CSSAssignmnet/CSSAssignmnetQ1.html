@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Assignmnet</title>
+    <link rel="shortcut icon" href="./android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="./StyleQ1.css">
+    <style>
+        .Container2 {
+            margin-left: 15%; margin-right: 15%; background-color: #e06377; text-align: center; height: 50px; padding-top: 8px;
+        }
+        .Container4{
+            margin-left: 15%; margin-right: 15%; background-color: #36486b; text-align: center; height: 50px; padding-top: 8px;
+        }
+
+        .Container5{
+            margin-left: 15%; margin-right: 15%; background-color: #36486b; text-align: center; height: 50px; padding-top: 8px;
+        }
+
+        .Container1, .Container2, .Container3, .Container4, .Container5 {
+        margin-bottom: 5px; font-family: Georgia;
+     }
+    
+    </style>
+</head>
+<body style="background-image: url(https://images.pexels.com/photos/6331082/pexels-photo-6331082.jpeg?auto=compress&cs=tinysrgb&w=600);">
+    <header style="text-align: center;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif;">Different ways of adding CSS</h1>
+    </header>    
+         <!-- 1. Adding inline style -->
+       <div class="Container1" style="margin-left: 15%; margin-right: 15%; background-color: rgb(199, 51, 73); text-align: center; height: 50px; padding-top: 8px;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sapiente at nulla explicabo libero ducimus repellendus ad ipsum sed nemo.</p>
+       </div>
+       <!-- 2. Adding internal style -->
+       <div class="Container2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi est dolor a veritatis iure aliquid voluptatum odio excepturi mollitia unde.</p>
+       </div>
+       <!-- 3. Adding internal style -->
+       <div class="Container3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi est dolor a veritatis iure aliquid voluptatum odio excepturi mollitia unde.</p>
+       </div>
+       <!-- Testing priority for inline, internal and external styles. -->
+       <!-- Test 1 : Testing Inline, Internal and External styles for Class="Container4" with Different colors  -->
+       <h1 class="Container3__T" style="text-align: center; font-family:'Bebas Neue', sans-serif;">Priority Test</h1>
+       <div class="Container4" style="margin-left: 15%; margin-right: 15%; background-color: #4040a1; text-align: center; height: 50px; padding-top: 8px;">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis doloremque perferendis porro eligendi officia ratione iste eos.</p>
+       </div>
+       <!-- Test 1 Results : Inline style passed -->
+
+       <!-- Test 2 : Tesing Internal and External styles for class="Container5" with Different colors -->
+       <div class="Container5">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis doloremque perferendis porro eligendi officia ratione iste eos.</p>
+       </div>
+       <!-- Test 2 Results : Internal style passed -->
+
+       <!-- Test 3 : Adding only External styles for class="Container6" -->
+       <div class="Container6">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deserunt nihil esse architecto unde eos eaque, provident deleniti sunt eius?</p>
+       </div>
+</body>
+</html>
